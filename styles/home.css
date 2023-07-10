@@ -1,0 +1,23 @@
+* {
+    background-color: #264653;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.recipe-box {
+    display: inline-block;
+}
+
+.recipe-box.recipe {
+    background-color: #f4a261;
+    color: #000;
+    text-decoration: overline;
+}
