@@ -1,0 +1,44 @@
+* {
+    background-color: #264653;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1,h2 {
+    color: white;
+}
+
+img {
+    border: 8px solid #f4a261;
+    width: 612px;
+    height: auto;
+}
+
+
+.text-content {
+    color: #f4a261;
+    text-decoration: underline;
+
+}
+
+
+p {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box {
+    list-style-type: none;
+}
+
+.box.steps {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    color: white;
+}
+
+.box.steps .text-content {
+    text-align: left;
+}
+
+
