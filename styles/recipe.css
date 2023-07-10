@@ -5,7 +5,7 @@
 }
 
 h1,h2 {
-    color: white;
+    color: #f4a261;
 }
 
 img {
@@ -16,9 +16,8 @@ img {
 
 
 .text-content {
-    color: #f4a261;
+    color: white;
     text-decoration: underline;
-
 }
 
 
@@ -28,8 +27,11 @@ p {
 }
 
 .box {
-    list-style-type: none;
+    list-style-type: square;
+    color: white;
+    list-style-position: inside;
 }
+
 
 .box.steps {
     list-style-type: decimal-leading-zero;
@@ -37,9 +39,6 @@ p {
     color: white;
 }
 
-.box.steps .text-content {
-    text-align: left;
-}
 
 a {
     background-color: #f4a261;
@@ -47,4 +46,7 @@ a {
     text-decoration: overline;
 }
 
+body {
+    margin: 100px;
+}
 
