@@ -1,11 +1,13 @@
 * {
     background-color: #264653;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
 }
 
 h1,h2 {
     color: #f4a261;
+    text-align: center;
 }
 
 img {
@@ -17,25 +19,27 @@ img {
 
 .text-content {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
 p {
     display: inline-block;
     text-decoration: none;
+    text-align: justify;
 }
 
 .box {
     list-style-type: square;
     color: white;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin: 5px auto;
+    text-align: justify;
 }
 
 
 .box.steps {
     list-style-type: decimal-leading-zero;
-    list-style-position: inside;
     color: white;
 }
 
@@ -44,9 +48,9 @@ a {
     background-color: #f4a261;
     color: #000;
     text-decoration: overline;
+    display: table;
+    text-align: center;
 }
 
-body {
-    margin: 100px;
-}
+
 
